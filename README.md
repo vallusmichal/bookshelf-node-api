@@ -1,6 +1,6 @@
 # bookshelf-node-api
 
-This is a simple back-end server for book collection.
+This is a basic back-end server for book collection, build with *express*, *mongoose*, *mocha* and *chai*.
 
 ##### Start-up
 
