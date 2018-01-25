@@ -1,6 +1,6 @@
 # bookshelf-node-api
 
-This is a basic back-end server for book collection.
+This is a simple back-end server for book collection.
 
 ##### Start-up
 
@@ -8,7 +8,7 @@ This is a basic back-end server for book collection.
 docker-compose up
 ```
 
-##### Requests Examples
+##### Request Examples
 
 ```bash
 # save a book
