@@ -28,4 +28,10 @@ curl http://localhost:3000/books/find-by-desc?q=apocalypse
 
 # find books by author
 curl http://localhost:3000/books/find-by-author?q=terry
+
+# update a book
+curl -H "Content-Type: application/json" -d '{"title": "A New Title"}' http://localhost:3000/books/<id>
+
+# delete a book
+curl -X "DELETE" http://localhost:3000/books/<id>
 ```
